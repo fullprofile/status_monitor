@@ -11,7 +11,7 @@ status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   # cname: status.waypath.io
   # Uncomment the following line if you don't have a custom domain and add your repo name
-  baseUrl: /status_monitor
+  # baseUrl: /status_monitor
   logoUrl: https://assets.website-files.com/5f33c7d6c091c28614d610eb/5f33c7d6c091c29dd3d61320_AgriDigital_Logo_FULL_LOCKUP_BLUE_TEXT.png
   cname: status.waypath.io # Custom CNAME
   name: Waypath Status Monitor
