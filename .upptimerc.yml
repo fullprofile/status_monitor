@@ -11,10 +11,10 @@ status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
   # cname: status.waypath.io
   # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  baseUrl: /status_monitor
+  logoUrl: https://assets.website-files.com/5f33c7d6c091c28614d610eb/5f33c7d6c091c29dd3d61320_AgriDigital_Logo_FULL_LOCKUP_BLUE_TEXT.png
+  name: Waypath Status Monitor
+  introTitle: "Waypath Status Monitor provides a quick look at our services and the uptime"
   navbar:
     - title: Status
       href: /
