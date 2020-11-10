@@ -5,14 +5,14 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00",
-    "time": 478
+    "time": 466
   },
   {
     "name": "GET Contracts Health",
     "url": "$BASE_PATH/contracts/health-monitor",
     "slug": "get-contracts-health",
     "status": "down",
-    "uptime": "0.02",
+    "uptime": "0.01",
     "time": 0
   },
   {
@@ -20,8 +20,8 @@
     "url": "https://dev-api.waypath.io/ous/health-monitor",
     "slug": "get-ous-health",
     "status": "down",
-    "uptime": "0.01",
-    "time": 166
+    "uptime": "0.00",
+    "time": 237
   },
   {
     "name": "GET Reference Health",
@@ -36,7 +36,7 @@
     "url": "$BASE_PATH/deliveries/v1/health-monitor",
     "slug": "get-deliveries-health",
     "status": "down",
-    "uptime": "0.01",
+    "uptime": "0.00",
     "time": 0
   },
   {
@@ -44,7 +44,7 @@
     "url": "$BASE_PATH/orginventories/health-monitor",
     "slug": "get-org-inventory-health",
     "status": "down",
-    "uptime": "0.00",
+    "uptime": "0.01",
     "time": 0
   },
   {
@@ -52,15 +52,15 @@
     "url": "$BASE_PATH/locationinventories/health-monitor",
     "slug": "get-location-inventory-health",
     "status": "down",
-    "uptime": "0.01",
+    "uptime": "0.00",
     "time": 0
   },
   {
-    "name": "GET CSV Health",
-    "url": "$BASE_PATH/csv/health-monitor",
-    "slug": "get-csv-health",
+    "name": "CSV Export Service",
+    "url": "$SECRET_SITE",
+    "slug": "csv-export-service",
     "status": "down",
-    "uptime": "0.01",
+    "uptime": "6.90",
     "time": 0
   },
   {
@@ -69,6 +69,6 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00",
-    "time": 459
+    "time": 466
   }
 ]
