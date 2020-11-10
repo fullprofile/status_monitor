@@ -20,7 +20,7 @@
     "url": "https://dev-api.waypath.io/ous/health-monitor",
     "slug": "get-ous-health",
     "status": "down",
-    "uptime": "0.00",
+    "uptime": "0.01",
     "time": 237
   },
   {
@@ -52,7 +52,7 @@
     "url": "$BASE_PATH/locationinventories/health-monitor",
     "slug": "get-location-inventory-health",
     "status": "down",
-    "uptime": "0.00",
+    "uptime": "0.01",
     "time": 0
   },
   {
@@ -60,7 +60,7 @@
     "url": "$SECRET_SITE",
     "slug": "csv-export-service",
     "status": "down",
-    "uptime": "6.90",
+    "uptime": "1.06",
     "time": 0
   },
   {
