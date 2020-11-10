@@ -5,30 +5,30 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00",
-    "time": 485
+    "time": 481
   },
   {
     "name": "GET Contracts Health",
     "url": "$BASE_PATH/contracts/health-monitor",
     "slug": "get-contracts-health",
     "status": "down",
-    "uptime": "0.07",
+    "uptime": "0.02",
     "time": 0
   },
   {
     "name": "GET OUS Health",
-    "url": "$BASE_PATH/ous/health-monitor",
+    "url": "https://dev-api.waypath.io/ous/health-monitor",
     "slug": "get-ous-health",
     "status": "down",
-    "uptime": "0.12",
-    "time": 0
+    "uptime": "0.01",
+    "time": 105
   },
   {
     "name": "GET Reference Health",
     "url": "$BASE_PATH/reference/health-monitor",
     "slug": "get-reference-health",
     "status": "down",
-    "uptime": "0.17",
+    "uptime": "0.02",
     "time": 0
   },
   {
@@ -36,7 +36,7 @@
     "url": "$BASE_PATH/deliveries/v1/health-monitor",
     "slug": "get-deliveries-health",
     "status": "down",
-    "uptime": "0.11",
+    "uptime": "0.01",
     "time": 0
   },
   {
@@ -44,7 +44,7 @@
     "url": "$BASE_PATH/orginventories/health-monitor",
     "slug": "get-org-inventory-health",
     "status": "down",
-    "uptime": "0.06",
+    "uptime": "0.02",
     "time": 0
   },
   {
@@ -52,7 +52,7 @@
     "url": "$BASE_PATH/locationinventories/health-monitor",
     "slug": "get-location-inventory-health",
     "status": "down",
-    "uptime": "0.09",
+    "uptime": "0.01",
     "time": 0
   },
   {
@@ -60,7 +60,7 @@
     "url": "$BASE_PATH/csv/health-monitor",
     "slug": "get-csv-health",
     "status": "down",
-    "uptime": "0.13",
+    "uptime": "0.01",
     "time": 0
   },
   {
@@ -69,6 +69,6 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00",
-    "time": 446
+    "time": 454
   }
 ]
