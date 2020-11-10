@@ -6,6 +6,7 @@ repo: status_monitor # Your Github repository name
 sites:
   - name: Waypath App
     url: https://app.waypath.io
+  # Health endpoints
   - name: GET Contracts Health
     method: GET
     url: $BASE_PATH/contracts/health-monitor
@@ -34,6 +35,9 @@ sites:
     url: $BASE_PATH/csv/health-monitor
     method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
+  # Metabase
+  - name: Metabase
+    url: https://metabase.waypath.io/
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
