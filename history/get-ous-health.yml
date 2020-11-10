@@ -1,7 +1,7 @@
 - url: https://dev-api.waypath.io/ous/health-monitor
 - status: down
 - code: 401
-- responseTime: 397
-- lastUpdated: 2020-11-10T04:08:41.094Z
+- responseTime: 434
+- lastUpdated: 2020-11-10T05:57:32.645Z
 - startTime: 2020-11-10T01:15:57.279Z
 - generator: Upptime <https://github.com/upptime/upptime>
