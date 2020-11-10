@@ -7,25 +7,32 @@ sites:
   - name: Waypath App
     url: https://app.waypath.io
   - name: GET Contracts Health
+    method: GET
     url: $BASE_PATH/contracts/health-monitor
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET OUS Health
     url: $BASE_PATH/ous/health-monitor
+    method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET Reference Health
     url: $BASE_PATH/reference/health-monitor
+    method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET Deliveries Health
     url: $BASE_PATH/deliveries/v1/health-monitor
+    method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET OrgInventory Health
     url: $BASE_PATH/orginventories/health-monitor
+    method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET LocationInventory Health
     url: $BASE_PATH/locationinventories/health-monitor
+    method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET CSV Health
     url: $BASE_PATH/csv/health-monitor
+    method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
 
 status-website:
