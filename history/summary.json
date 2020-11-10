@@ -12,7 +12,7 @@
     "url": "$BASE_PATH/contracts/health-monitor",
     "slug": "get-contracts-health",
     "status": "down",
-    "uptime": "7.16",
+    "uptime": "3.22",
     "time": 0
   },
   {
@@ -20,7 +20,7 @@
     "url": "$BASE_PATH/ous/health-monitor",
     "slug": "get-ous-health",
     "status": "down",
-    "uptime": "10.95",
+    "uptime": "5.99",
     "time": 0
   },
   {
@@ -28,7 +28,7 @@
     "url": "$BASE_PATH/reference/health-monitor",
     "slug": "get-reference-health",
     "status": "down",
-    "uptime": "7.69",
+    "uptime": "8.56",
     "time": 0
   },
   {
@@ -36,7 +36,7 @@
     "url": "$BASE_PATH/deliveries/v1/health-monitor",
     "slug": "get-deliveries-health",
     "status": "down",
-    "uptime": "3.59",
+    "uptime": "0.64",
     "time": 0
   },
   {
@@ -44,7 +44,7 @@
     "url": "$BASE_PATH/orginventories/health-monitor",
     "slug": "get-org-inventory-health",
     "status": "down",
-    "uptime": "9.78",
+    "uptime": "3.95",
     "time": 0
   },
   {
@@ -52,7 +52,7 @@
     "url": "$BASE_PATH/locationinventories/health-monitor",
     "slug": "get-location-inventory-health",
     "status": "down",
-    "uptime": "15.17",
+    "uptime": "5.94",
     "time": 0
   },
   {
@@ -60,7 +60,7 @@
     "url": "$BASE_PATH/csv/health-monitor",
     "slug": "get-csv-health",
     "status": "down",
-    "uptime": "9.39",
+    "uptime": "9.60",
     "time": 0
   }
 ]
