@@ -31,10 +31,8 @@ sites:
     url: $BASE_PATH/locationinventories/health-monitor
     method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
-  - name: GET CSV Health
-    url: $BASE_PATH/csv/health-monitor
-    method: GET
-    Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
+  - name: CSV Export Service
+    url: $SECRET_SITE
   # Metabase
   - name: Metabase
     url: https://metabase.waypath.io/
