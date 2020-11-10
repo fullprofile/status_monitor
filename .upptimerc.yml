@@ -12,7 +12,7 @@ sites:
     url: $BASE_PATH/contracts/health-monitor
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET OUS Health
-    url: $BASE_PATH/ous/health-monitor
+    url: https://dev-api.waypath.io/ous/health-monitor
     method: GET
     Agridigital-API-MonitorPrivateKey: $MONITOR_KEY
   - name: GET Reference Health
