@@ -41,3 +41,6 @@ jobs:
           SECRET_SITE_7: ${{ secrets.SECRET_SITE_7 }}
           SECRET_SITE_8: ${{ secrets.SECRET_SITE_8 }}
           SECRET_SITE_9: ${{ secrets.SECRET_SITE_9 }}
+          BASE_PATH: https://dev-api.waypath.io
+          MONITOR_KEY: ${{ secrets.API_MONITOR_PRIVATE_KEY }}
+          Agridigital-API-MonitorPrivateKey: ${{ secrets.API_MONITOR_PRIVATE_KEY }}
