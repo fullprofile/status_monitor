@@ -13,7 +13,7 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00",
-    "time": 380
+    "time": 384
   },
   {
     "name": "OUS Service",
@@ -21,7 +21,7 @@
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 337
+    "time": 343
   },
   {
     "name": "Reference Service",
@@ -29,7 +29,7 @@
     "slug": "reference-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 62
+    "time": 65
   },
   {
     "name": "Contracts Service",
@@ -37,7 +37,7 @@
     "slug": "contracts-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 63
+    "time": 66
   },
   {
     "name": "CSV Export Service",
@@ -45,7 +45,7 @@
     "slug": "csv-export-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 71
+    "time": 77
   },
   {
     "name": "Terminologies Service",
@@ -61,6 +61,6 @@
     "slug": "markets-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 145
+    "time": 135
   }
 ]
