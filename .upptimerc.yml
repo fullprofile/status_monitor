@@ -28,6 +28,16 @@ sites:
     headers:
       - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
       - "Content-Type: application/json"
+  - name: Terminologies Service
+    url: https://api.waypath.io/terminologies/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Content-Type: application/json"
+  - name: Markets Service
+    url: https://api.waypath.io/markets/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Content-Type: application/json"
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
