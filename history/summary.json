@@ -5,7 +5,7 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00",
-    "time": 438
+    "time": 437
   },
   {
     "name": "Metabase",
@@ -21,6 +21,6 @@
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 370
+    "time": 383
   }
 ]
