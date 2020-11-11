@@ -5,7 +5,7 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00",
-    "time": 450
+    "time": 455
   },
   {
     "name": "Metabase",
@@ -13,7 +13,7 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00",
-    "time": 371
+    "time": 380
   },
   {
     "name": "OUS Service",
@@ -21,7 +21,7 @@
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 305
+    "time": 337
   },
   {
     "name": "Reference Service",
@@ -29,7 +29,7 @@
     "slug": "reference-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 53
+    "time": 62
   },
   {
     "name": "Contracts Service",
@@ -37,7 +37,7 @@
     "slug": "contracts-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 54
+    "time": 63
   },
   {
     "name": "CSV Export Service",
@@ -45,6 +45,22 @@
     "slug": "csv-export-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 63
+    "time": 71
+  },
+  {
+    "name": "Terminologies Service",
+    "url": "https://api.waypath.io/terminologies/health-monitor",
+    "slug": "terminologies-service",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 83
+  },
+  {
+    "name": "Markets Service",
+    "url": "https://api.waypath.io/markets/health-monitor",
+    "slug": "markets-service",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 145
   }
 ]
