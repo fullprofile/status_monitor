@@ -13,6 +13,21 @@ sites:
     headers:
       - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
       - "Content-Type: application/json"
+- name: Reference Service
+    url: https://api.waypath.io/reference/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Content-Type: application/json"
+- name: Contracts Service
+    url: https://api.waypath.io/contracts/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Content-Type: application/json"
+- name: CSV Export Service
+    url: https://api.waypath.io/csv/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Content-Type: application/json"
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
