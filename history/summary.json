@@ -5,7 +5,7 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00",
-    "time": 437
+    "time": 429
   },
   {
     "name": "Metabase",
@@ -13,7 +13,7 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00",
-    "time": 396
+    "time": 378
   },
   {
     "name": "OUS Service",
@@ -21,6 +21,30 @@
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 383
+    "time": 355
+  },
+  {
+    "name": "Reference Service",
+    "url": "https://api.waypath.io/reference/health-monitor",
+    "slug": "reference-service",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 50
+  },
+  {
+    "name": "Contracts Service",
+    "url": "https://api.waypath.io/contracts/health-monitor",
+    "slug": "contracts-service",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 52
+  },
+  {
+    "name": "CSV Export Service",
+    "url": "https://api.waypath.io/csv/health-monitor",
+    "slug": "csv-export-service",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 43
   }
 ]
