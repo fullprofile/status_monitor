@@ -8,8 +8,6 @@ sites:
     url: https://app.waypath.io
   - name: Metabase
     url: https://metabase.waypath.io/
-  - name: Waypath API Gateway
-    url: https://api.waypath.io/
   - name: OUS Service
     url: https://api.waypath.io/ous/health-monitor
     headers:
