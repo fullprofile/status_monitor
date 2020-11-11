@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Waypath App",
+    "url": "https://app.waypath.io",
+    "slug": "waypath-app",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 438
+  },
+  {
+    "name": "Metabase",
+    "url": "https://metabase.waypath.io/",
+    "slug": "metabase",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 396
+  },
+  {
+    "name": "OUS Service",
+    "url": "https://api.waypath.io/ous/health-monitor",
+    "slug": "ous-service",
+    "status": "up",
+    "uptime": "100.00",
+    "time": 370
+  }
+]
