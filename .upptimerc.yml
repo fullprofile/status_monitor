@@ -26,8 +26,14 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Waypath App
+      href: https://app.waypath.io
+    - title: Knowledge Base
+      href: https://knowledgebase.waypath.io/
+
+notifications:
+  - type: slack
+    channel: C01E1AA7KAT
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
