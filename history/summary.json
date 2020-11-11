@@ -5,7 +5,7 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00",
-    "time": 429
+    "time": 445
   },
   {
     "name": "Metabase",
@@ -13,7 +13,15 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00",
-    "time": 378
+    "time": 375
+  },
+  {
+    "name": "Waypath API Gateway",
+    "url": "https://api.waypath.io/",
+    "slug": "waypath-api-gateway",
+    "status": "down",
+    "uptime": "17.91",
+    "time": 314
   },
   {
     "name": "OUS Service",
@@ -21,7 +29,7 @@
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 355
+    "time": 305
   },
   {
     "name": "Reference Service",
@@ -29,7 +37,7 @@
     "slug": "reference-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 50
+    "time": 52
   },
   {
     "name": "Contracts Service",
@@ -37,7 +45,7 @@
     "slug": "contracts-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 52
+    "time": 53
   },
   {
     "name": "CSV Export Service",
@@ -45,6 +53,6 @@
     "slug": "csv-export-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 43
+    "time": 51
   }
 ]
