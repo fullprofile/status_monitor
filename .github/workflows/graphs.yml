@@ -28,8 +28,3 @@ jobs:
           command: "graphs"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
-          BASE_PATH: https://dev-api.waypath.io
-          MONITOR_KEY: ${{ secrets.API_MONITOR_PRIVATE_KEY }}
-          Agridigital-API-MonitorPrivateKey: ${{ secrets.API_MONITOR_PRIVATE_KEY }}
-
-          
