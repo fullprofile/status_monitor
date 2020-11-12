@@ -17,11 +17,11 @@
   },
   {
     "name": "OUS Service",
-    "url": "$OUS_URL",
+    "url": "https://api.waypath.io/ous/health-monitor",
     "slug": "ous-service",
-    "status": "down",
-    "uptime": "99.98",
-    "time": 319
+    "status": "up",
+    "uptime": "100.00",
+    "time": 327
   },
   {
     "name": "Reference Service",
