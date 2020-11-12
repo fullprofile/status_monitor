@@ -9,7 +9,7 @@ sites:
   - name: Metabase
     url: https://metabase.waypath.io/
   - name: OUS Service
-    url: $OUS_URL
+    url: https://api.waypath.io/ous/health-monitor
     headers:
       - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
       - "Content-Type: application/json"
