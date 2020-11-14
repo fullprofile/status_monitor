@@ -5,7 +5,7 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00",
-    "time": 455
+    "time": 454
   },
   {
     "name": "Metabase",
@@ -13,7 +13,7 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00",
-    "time": 394
+    "time": 397
   },
   {
     "name": "OUS Service",
@@ -21,7 +21,7 @@
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 334
+    "time": 336
   },
   {
     "name": "Reference Service",
@@ -29,7 +29,7 @@
     "slug": "reference-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 112
+    "time": 109
   },
   {
     "name": "Contracts Service",
@@ -37,7 +37,7 @@
     "slug": "contracts-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 70
+    "time": 71
   },
   {
     "name": "CSV Export Service",
@@ -53,7 +53,7 @@
     "slug": "terminologies-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 83
+    "time": 82
   },
   {
     "name": "Markets Service",
@@ -61,6 +61,6 @@
     "slug": "markets-service",
     "status": "up",
     "uptime": "100.00",
-    "time": 132
+    "time": 127
   }
 ]
