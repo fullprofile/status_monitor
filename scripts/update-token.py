@@ -10,7 +10,7 @@ user = {
     "username": "support@waypath.io",
     "password": os.environ['SUPPORT_USER_PASSWORD']
 }
-authToken = os.environ['GH_PAT']
+authToken = os.environ['AUTH_TOKEN']
 
 def encrypt(public_key: str, secret_value: str) -> str:
     """Encrypt a Unicode string using the public key."""
