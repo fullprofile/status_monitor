@@ -1,7 +1,7 @@
 - url: https://api.waypath.io/deliveries/v1/health-monitor
 - status: up
 - code: 200
-- responseTime: 125
-- lastUpdated: 2020-11-17T02:53:29.678Z
+- responseTime: 19
+- lastUpdated: 2020-11-17T04:43:16.267Z
 - startTime: 2020-11-16T23:38:54.027Z
 - generator: Upptime <https://github.com/upptime/upptime>
