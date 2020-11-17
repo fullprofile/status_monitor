@@ -38,6 +38,36 @@ sites:
     headers:
       - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
       - "Content-Type: application/json"
+  - name: Deliveries Service
+    url: https://api.waypath.io/deliveries/v1/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Authorization: $SECRET_SITE_2"
+      - "Content-Type: application/json"
+  - name: Org Inventory Service
+    url: https://api.waypath.io/orginventories/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Authorization: $SECRET_SITE_2"
+      - "Content-Type: application/json"
+  - name: Location Inventory Service
+    url: https://api.waypath.io/locationinventories/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Authorization: $SECRET_SITE_2"
+      - "Content-Type: application/json"
+  - name: IOT Service
+    url: https://api.waypath.io/iot/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Authorization: $SECRET_SITE_2"
+      - "Content-Type: application/json"
+  - name: Orders Service
+    url: https://api.waypath.io/orders/health-monitor
+    headers:
+      - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
+      - "Authorization: $SECRET_SITE_2"
+      - "Content-Type: application/json"
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
