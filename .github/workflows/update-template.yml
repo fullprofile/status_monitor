@@ -28,10 +28,10 @@ jobs:
           node-version: 14
       - name: Update template
         run: npx update-template https://github.com/upptime/upptime
-      - name: Commit new data
-        uses: stefanzweifel/git-auto-commit-action@v4.7.2
-        with:
-          commit_message: ":arrow_up: Update @upptime to latest"
-          commit_user_name: Upptime Bot
-          commit_user_email: upptime@koj.co
-          commit_author: Upptime Bot <bot@koj.co>
+      # - name: Commit new data
+      #   uses: stefanzweifel/git-auto-commit-action@v4.7.2
+      #   with:
+      #     commit_message: ":arrow_up: Update @upptime to latest"
+      #     commit_user_name: Upptime Bot
+      #     commit_user_email: upptime@koj.co
+      #     commit_author: Upptime Bot <bot@koj.co>
