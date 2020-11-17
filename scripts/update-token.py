@@ -31,6 +31,7 @@ if __name__ == '__main__':
     headers = {'Authorization': authToken}
     publicKeyResponse = requests.get(f'{base_github_url}/public-key', headers=headers)
     publicKeyJSON = json.loads(publicKeyResponse.text)
+    print(publicKeyJSON)
     keyId = publicKeyJSON['key_id']
     publicKey = publicKeyJSON['key']
 
