@@ -35,5 +35,5 @@ jobs:
           python scripts/update-token.py
         env:
           SUPPORT_USER_PASSWORD: ${{ secrets.SUPPORT_USER_PASSWORD }}
-          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
       
