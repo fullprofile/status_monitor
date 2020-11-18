@@ -1,7 +1,7 @@
 - url: https://api.waypath.io/markets/health-monitor
 - status: up
 - code: 200
-- responseTime: 105
-- lastUpdated: 2020-11-17T23:07:39.534Z
+- responseTime: 44
+- lastUpdated: 2020-11-18T01:36:51.431Z
 - startTime: 2020-11-11T23:23:31.326Z
 - generator: Upptime <https://github.com/upptime/upptime>
