@@ -1,7 +1,7 @@
 - url: https://api.waypath.io/csv/health-monitor
 - status: up
 - code: 200
-- responseTime: 107
-- lastUpdated: 2020-11-17T23:07:38.821Z
+- responseTime: 65
+- lastUpdated: 2020-11-18T01:36:50.805Z
 - startTime: 2020-11-11T03:34:56.525Z
 - generator: Upptime <https://github.com/upptime/upptime>
