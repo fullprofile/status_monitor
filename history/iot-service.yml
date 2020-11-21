@@ -1,7 +1,7 @@
 - url: https://api.waypath.io/iot/health-monitor
 - status: up
 - code: 200
-- responseTime: 144
-- lastUpdated: 2020-11-20T23:07:59.729Z
+- responseTime: 52
+- lastUpdated: 2020-11-21T23:08:06.408Z
 - startTime: 2020-11-16T23:38:58.232Z
 - generator: Upptime <https://github.com/upptime/upptime>
