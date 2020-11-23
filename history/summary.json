@@ -4,103 +4,103 @@
     "url": "https://app.waypath.io",
     "slug": "waypath-app",
     "status": "up",
-    "uptime": "100.00",
-    "time": 430
+    "uptime": "100.00%",
+    "time": 425
   },
   {
     "name": "Metabase",
     "url": "https://metabase.waypath.io/",
     "slug": "metabase",
     "status": "up",
-    "uptime": "100.00",
-    "time": 410
+    "uptime": "100.00%",
+    "time": 403
   },
   {
     "name": "OUS Service",
     "url": "https://api.waypath.io/ous/health-monitor",
     "slug": "ous-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 360
+    "uptime": "100.00%",
+    "time": 354
   },
   {
     "name": "Reference Service",
     "url": "https://api.waypath.io/reference/health-monitor",
     "slug": "reference-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 79
+    "uptime": "100.00%",
+    "time": 77
   },
   {
     "name": "Contracts Service",
     "url": "https://api.waypath.io/contracts/health-monitor",
     "slug": "contracts-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 65
+    "uptime": "100.00%",
+    "time": 63
   },
   {
     "name": "CSV Export Service",
     "url": "https://api.waypath.io/csv/health-monitor",
     "slug": "csv-export-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 104
+    "uptime": "100.00%",
+    "time": 102
   },
   {
     "name": "Terminologies Service",
     "url": "https://api.waypath.io/terminologies/health-monitor",
     "slug": "terminologies-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 67
+    "uptime": "100.00%",
+    "time": 65
   },
   {
     "name": "Markets Service",
     "url": "https://api.waypath.io/markets/health-monitor",
     "slug": "markets-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 106
+    "uptime": "100.00%",
+    "time": 104
   },
   {
     "name": "Deliveries Service",
     "url": "https://api.waypath.io/deliveries/v1/health-monitor",
     "slug": "deliveries-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 80
+    "uptime": "100.00%",
+    "time": 76
   },
   {
     "name": "Org Inventory Service",
     "url": "https://api.waypath.io/orginventories/health-monitor",
     "slug": "org-inventory-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 108
+    "uptime": "100.00%",
+    "time": 105
   },
   {
     "name": "Location Inventory Service",
     "url": "https://api.waypath.io/locationinventories/health-monitor",
     "slug": "location-inventory-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 98
+    "uptime": "100.00%",
+    "time": 97
   },
   {
     "name": "IOT Service",
     "url": "https://api.waypath.io/iot/health-monitor",
     "slug": "iot-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 116
+    "uptime": "100.00%",
+    "time": 113
   },
   {
     "name": "Orders Service",
     "url": "https://api.waypath.io/orders/health-monitor",
     "slug": "orders-service",
     "status": "up",
-    "uptime": "100.00",
-    "time": 108
+    "uptime": "100.00%",
+    "time": 105
   }
 ]
