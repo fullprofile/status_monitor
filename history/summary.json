@@ -5,7 +5,7 @@
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00%",
-    "time": 425
+    "time": 427
   },
   {
     "name": "Metabase",
@@ -13,7 +13,7 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00%",
-    "time": 403
+    "time": 407
   },
   {
     "name": "OUS Service",
@@ -37,7 +37,7 @@
     "slug": "contracts-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 63
+    "time": 66
   },
   {
     "name": "CSV Export Service",
@@ -45,7 +45,7 @@
     "slug": "csv-export-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 102
+    "time": 104
   },
   {
     "name": "Terminologies Service",
@@ -53,7 +53,7 @@
     "slug": "terminologies-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 65
+    "time": 68
   },
   {
     "name": "Markets Service",
@@ -61,7 +61,7 @@
     "slug": "markets-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 104
+    "time": 105
   },
   {
     "name": "Deliveries Service",
@@ -69,7 +69,7 @@
     "slug": "deliveries-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 76
+    "time": 78
   },
   {
     "name": "Org Inventory Service",
@@ -93,7 +93,7 @@
     "slug": "iot-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 113
+    "time": 112
   },
   {
     "name": "Orders Service",
@@ -101,6 +101,6 @@
     "slug": "orders-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 105
+    "time": 106
   }
 ]
