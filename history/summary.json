@@ -13,7 +13,7 @@
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00%",
-    "time": 403
+    "time": 406
   },
   {
     "name": "OUS Service",
@@ -21,7 +21,7 @@
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 351
+    "time": 352
   },
   {
     "name": "Reference Service",
@@ -45,7 +45,7 @@
     "slug": "csv-export-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 104
+    "time": 105
   },
   {
     "name": "Terminologies Service",
@@ -69,7 +69,7 @@
     "slug": "deliveries-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 75
+    "time": 76
   },
   {
     "name": "Org Inventory Service",
@@ -77,7 +77,7 @@
     "slug": "org-inventory-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 104
+    "time": 103
   },
   {
     "name": "Location Inventory Service",
@@ -85,7 +85,7 @@
     "slug": "location-inventory-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 95
+    "time": 98
   },
   {
     "name": "IOT Service",
@@ -93,7 +93,7 @@
     "slug": "iot-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 111
+    "time": 112
   },
   {
     "name": "Orders Service",
@@ -101,6 +101,6 @@
     "slug": "orders-service",
     "status": "up",
     "uptime": "100.00%",
-    "time": 106
+    "time": 107
   }
 ]
