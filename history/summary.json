@@ -9,11 +9,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 443,
-    "timeDay": 475,
-    "timeWeek": 449,
-    "timeMonth": 443,
-    "timeYear": 443
+    "time": 444,
+    "timeDay": 494,
+    "timeWeek": 459,
+    "timeMonth": 444,
+    "timeYear": 444
   },
   {
     "name": "Metabase",
@@ -25,11 +25,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 428,
-    "timeDay": 517,
-    "timeWeek": 441,
-    "timeMonth": 428,
-    "timeYear": 428
+    "time": 429,
+    "timeDay": 505,
+    "timeWeek": 449,
+    "timeMonth": 429,
+    "timeYear": 429
   },
   {
     "name": "OUS Service",
@@ -41,11 +41,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 386,
-    "timeDay": 453,
-    "timeWeek": 459,
-    "timeMonth": 386,
-    "timeYear": 386
+    "time": 390,
+    "timeDay": 563,
+    "timeWeek": 464,
+    "timeMonth": 390,
+    "timeYear": 390
   },
   {
     "name": "Reference Service",
@@ -58,8 +58,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 77,
-    "timeDay": 80,
-    "timeWeek": 72,
+    "timeDay": 83,
+    "timeWeek": 73,
     "timeMonth": 77,
     "timeYear": 77
   },
@@ -73,11 +73,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 72,
-    "timeDay": 147,
-    "timeWeek": 87,
-    "timeMonth": 72,
-    "timeYear": 72
+    "time": 73,
+    "timeDay": 79,
+    "timeWeek": 81,
+    "timeMonth": 73,
+    "timeYear": 73
   },
   {
     "name": "CSV Export Service",
@@ -89,11 +89,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 161,
+    "time": 160,
     "timeDay": 138,
-    "timeWeek": 370,
-    "timeMonth": 161,
-    "timeYear": 161
+    "timeWeek": 373,
+    "timeMonth": 160,
+    "timeYear": 160
   },
   {
     "name": "Terminologies Service",
@@ -106,8 +106,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 72,
-    "timeDay": 80,
-    "timeWeek": 79,
+    "timeDay": 81,
+    "timeWeek": 72,
     "timeMonth": 72,
     "timeYear": 72
   },
@@ -121,11 +121,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 111,
-    "timeDay": 158,
+    "time": 112,
+    "timeDay": 138,
     "timeWeek": 120,
-    "timeMonth": 111,
-    "timeYear": 111
+    "timeMonth": 112,
+    "timeYear": 112
   },
   {
     "name": "Deliveries Service",
@@ -137,11 +137,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 88,
-    "timeDay": 82,
-    "timeWeek": 101,
-    "timeMonth": 88,
-    "timeYear": 88
+    "time": 89,
+    "timeDay": 123,
+    "timeWeek": 100,
+    "timeMonth": 89,
+    "timeYear": 89
   },
   {
     "name": "Org Inventory Service",
@@ -153,11 +153,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 111,
-    "timeDay": 109,
-    "timeWeek": 118,
-    "timeMonth": 111,
-    "timeYear": 111
+    "time": 110,
+    "timeDay": 83,
+    "timeWeek": 111,
+    "timeMonth": 110,
+    "timeYear": 110
   },
   {
     "name": "Location Inventory Service",
@@ -169,11 +169,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 108,
-    "timeDay": 147,
-    "timeWeek": 117,
-    "timeMonth": 108,
-    "timeYear": 108
+    "time": 110,
+    "timeDay": 158,
+    "timeWeek": 121,
+    "timeMonth": 110,
+    "timeYear": 110
   },
   {
     "name": "IOT Service",
@@ -185,11 +185,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 119,
-    "timeDay": 124,
+    "time": 120,
+    "timeDay": 140,
     "timeWeek": 121,
-    "timeMonth": 119,
-    "timeYear": 119
+    "timeMonth": 120,
+    "timeYear": 120
   },
   {
     "name": "Orders Service",
@@ -202,8 +202,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 118,
-    "timeDay": 216,
-    "timeWeek": 128,
+    "timeDay": 110,
+    "timeWeek": 127,
     "timeMonth": 118,
     "timeYear": 118
   }
