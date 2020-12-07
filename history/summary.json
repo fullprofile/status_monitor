@@ -9,11 +9,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 444,
-    "timeDay": 494,
-    "timeWeek": 459,
-    "timeMonth": 444,
-    "timeYear": 444
+    "time": 445,
+    "timeDay": 549,
+    "timeWeek": 480,
+    "timeMonth": 445,
+    "timeYear": 445
   },
   {
     "name": "Metabase",
@@ -25,11 +25,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 429,
-    "timeDay": 505,
-    "timeWeek": 449,
-    "timeMonth": 429,
-    "timeYear": 429
+    "time": 430,
+    "timeDay": 455,
+    "timeWeek": 447,
+    "timeMonth": 430,
+    "timeYear": 430
   },
   {
     "name": "OUS Service",
@@ -41,11 +41,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 390,
-    "timeDay": 563,
+    "time": 392,
+    "timeDay": 448,
     "timeWeek": 464,
-    "timeMonth": 390,
-    "timeYear": 390
+    "timeMonth": 392,
+    "timeYear": 392
   },
   {
     "name": "Reference Service",
@@ -58,8 +58,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 77,
-    "timeDay": 83,
-    "timeWeek": 73,
+    "timeDay": 81,
+    "timeWeek": 72,
     "timeMonth": 77,
     "timeYear": 77
   },
@@ -75,7 +75,7 @@
     "uptimeYear": "100.00%",
     "time": 73,
     "timeDay": 79,
-    "timeWeek": 81,
+    "timeWeek": 80,
     "timeMonth": 73,
     "timeYear": 73
   },
@@ -91,7 +91,7 @@
     "uptimeYear": "100.00%",
     "time": 160,
     "timeDay": 138,
-    "timeWeek": 373,
+    "timeWeek": 336,
     "timeMonth": 160,
     "timeYear": 160
   },
@@ -105,11 +105,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 72,
-    "timeDay": 81,
+    "time": 73,
+    "timeDay": 82,
     "timeWeek": 72,
-    "timeMonth": 72,
-    "timeYear": 72
+    "timeMonth": 73,
+    "timeYear": 73
   },
   {
     "name": "Markets Service",
@@ -121,11 +121,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 112,
-    "timeDay": 138,
-    "timeWeek": 120,
-    "timeMonth": 112,
-    "timeYear": 112
+    "time": 113,
+    "timeDay": 165,
+    "timeWeek": 118,
+    "timeMonth": 113,
+    "timeYear": 113
   },
   {
     "name": "Deliveries Service",
@@ -138,8 +138,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 89,
-    "timeDay": 123,
-    "timeWeek": 100,
+    "timeDay": 83,
+    "timeWeek": 99,
     "timeMonth": 89,
     "timeYear": 89
   },
@@ -153,11 +153,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 110,
-    "timeDay": 83,
-    "timeWeek": 111,
-    "timeMonth": 110,
-    "timeYear": 110
+    "time": 109,
+    "timeDay": 81,
+    "timeWeek": 104,
+    "timeMonth": 109,
+    "timeYear": 109
   },
   {
     "name": "Location Inventory Service",
@@ -169,11 +169,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 110,
-    "timeDay": 158,
-    "timeWeek": 121,
-    "timeMonth": 110,
-    "timeYear": 110
+    "time": 109,
+    "timeDay": 85,
+    "timeWeek": 114,
+    "timeMonth": 109,
+    "timeYear": 109
   },
   {
     "name": "IOT Service",
@@ -186,7 +186,7 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 120,
-    "timeDay": 140,
+    "timeDay": 122,
     "timeWeek": 121,
     "timeMonth": 120,
     "timeYear": 120
@@ -202,8 +202,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 118,
-    "timeDay": 110,
-    "timeWeek": 127,
+    "timeDay": 106,
+    "timeWeek": 121,
     "timeMonth": 118,
     "timeYear": 118
   }
