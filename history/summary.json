@@ -2,6 +2,7 @@
   {
     "name": "Waypath App",
     "url": "https://app.waypath.io",
+    "icon": "https://favicons.githubusercontent.com/app.waypath.io",
     "slug": "waypath-app",
     "status": "up",
     "uptime": "100.00%",
@@ -9,15 +10,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 445,
-    "timeDay": 549,
-    "timeWeek": 480,
-    "timeMonth": 445,
-    "timeYear": 445
+    "time": 446,
+    "timeDay": 483,
+    "timeWeek": 476,
+    "timeMonth": 446,
+    "timeYear": 446,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Metabase",
     "url": "https://metabase.waypath.io/",
+    "icon": "https://favicons.githubusercontent.com/metabase.waypath.io",
     "slug": "metabase",
     "status": "up",
     "uptime": "100.00%",
@@ -26,14 +29,16 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 430,
-    "timeDay": 455,
-    "timeWeek": 447,
+    "timeDay": 452,
+    "timeWeek": 445,
     "timeMonth": 430,
-    "timeYear": 430
+    "timeYear": 430,
+    "dailyMinutesDown": {}
   },
   {
     "name": "OUS Service",
     "url": "https://api.waypath.io/ous/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "ous-service",
     "status": "up",
     "uptime": "100.00%",
@@ -42,14 +47,16 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 392,
-    "timeDay": 448,
-    "timeWeek": 464,
+    "timeDay": 412,
+    "timeWeek": 442,
     "timeMonth": 392,
-    "timeYear": 392
+    "timeYear": 392,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Reference Service",
     "url": "https://api.waypath.io/reference/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "reference-service",
     "status": "up",
     "uptime": "100.00%",
@@ -57,15 +64,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 77,
-    "timeDay": 81,
+    "time": 78,
+    "timeDay": 80,
     "timeWeek": 72,
-    "timeMonth": 77,
-    "timeYear": 77
+    "timeMonth": 78,
+    "timeYear": 78,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Contracts Service",
     "url": "https://api.waypath.io/contracts/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "contracts-service",
     "status": "up",
     "uptime": "100.00%",
@@ -74,14 +83,16 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 73,
-    "timeDay": 79,
-    "timeWeek": 80,
+    "timeDay": 86,
+    "timeWeek": 81,
     "timeMonth": 73,
-    "timeYear": 73
+    "timeYear": 73,
+    "dailyMinutesDown": {}
   },
   {
     "name": "CSV Export Service",
     "url": "https://api.waypath.io/csv/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "csv-export-service",
     "status": "up",
     "uptime": "100.00%",
@@ -90,14 +101,16 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 160,
-    "timeDay": 138,
-    "timeWeek": 336,
+    "timeDay": 144,
+    "timeWeek": 318,
     "timeMonth": 160,
-    "timeYear": 160
+    "timeYear": 160,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Terminologies Service",
     "url": "https://api.waypath.io/terminologies/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "terminologies-service",
     "status": "up",
     "uptime": "100.00%",
@@ -106,14 +119,16 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 73,
-    "timeDay": 82,
+    "timeDay": 81,
     "timeWeek": 72,
     "timeMonth": 73,
-    "timeYear": 73
+    "timeYear": 73,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Markets Service",
     "url": "https://api.waypath.io/markets/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "markets-service",
     "status": "up",
     "uptime": "100.00%",
@@ -122,14 +137,16 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 113,
-    "timeDay": 165,
-    "timeWeek": 118,
+    "timeDay": 121,
+    "timeWeek": 121,
     "timeMonth": 113,
-    "timeYear": 113
+    "timeYear": 113,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Deliveries Service",
     "url": "https://api.waypath.io/deliveries/v1/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "deliveries-service",
     "status": "up",
     "uptime": "100.00%",
@@ -137,15 +154,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 89,
-    "timeDay": 83,
-    "timeWeek": 99,
-    "timeMonth": 89,
-    "timeYear": 89
+    "time": 88,
+    "timeDay": 85,
+    "timeWeek": 93,
+    "timeMonth": 88,
+    "timeYear": 88,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Org Inventory Service",
     "url": "https://api.waypath.io/orginventories/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "org-inventory-service",
     "status": "up",
     "uptime": "100.00%",
@@ -153,15 +172,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 109,
-    "timeDay": 81,
-    "timeWeek": 104,
-    "timeMonth": 109,
-    "timeYear": 109
+    "time": 110,
+    "timeDay": 129,
+    "timeWeek": 100,
+    "timeMonth": 110,
+    "timeYear": 110,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Location Inventory Service",
     "url": "https://api.waypath.io/locationinventories/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "location-inventory-service",
     "status": "up",
     "uptime": "100.00%",
@@ -169,15 +190,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 109,
-    "timeDay": 85,
-    "timeWeek": 114,
-    "timeMonth": 109,
-    "timeYear": 109
+    "time": 111,
+    "timeDay": 165,
+    "timeWeek": 120,
+    "timeMonth": 111,
+    "timeYear": 111,
+    "dailyMinutesDown": {}
   },
   {
     "name": "IOT Service",
     "url": "https://api.waypath.io/iot/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "iot-service",
     "status": "up",
     "uptime": "100.00%",
@@ -185,15 +208,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 120,
-    "timeDay": 122,
-    "timeWeek": 121,
-    "timeMonth": 120,
-    "timeYear": 120
+    "time": 121,
+    "timeDay": 141,
+    "timeWeek": 125,
+    "timeMonth": 121,
+    "timeYear": 121,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Orders Service",
     "url": "https://api.waypath.io/orders/health-monitor",
+    "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "orders-service",
     "status": "up",
     "uptime": "100.00%",
@@ -202,9 +227,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 118,
-    "timeDay": 106,
-    "timeWeek": 121,
+    "timeDay": 124,
+    "timeWeek": 120,
     "timeMonth": 118,
-    "timeYear": 118
+    "timeYear": 118,
+    "dailyMinutesDown": {}
   }
 ]
