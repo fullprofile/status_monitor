@@ -148,9 +148,9 @@
     "url": "https://api.waypath.io/deliveries/v1/health-monitor",
     "icon": "https://favicons.githubusercontent.com/api.waypath.io",
     "slug": "deliveries-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -159,7 +159,9 @@
     "timeWeek": 85,
     "timeMonth": 88,
     "timeYear": 88,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2020-12-15": 0
+    }
   },
   {
     "name": "Org Inventory Service",
