@@ -22,18 +22,20 @@
     "url": "https://metabase.waypath.io/",
     "icon": "https://favicons.githubusercontent.com/metabase.waypath.io",
     "slug": "metabase",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 423,
     "timeDay": 496,
-    "timeWeek": 423,
-    "timeMonth": 403,
+    "timeWeek": 432,
+    "timeMonth": 406,
     "timeYear": 423,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-02-19": 0
+    }
   },
   {
     "name": "OUS Service",
@@ -151,7 +153,7 @@
     "status": "up",
     "uptime": "93.57%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "56.14%",
+    "uptimeWeek": "57.62%",
     "uptimeMonth": "80.11%",
     "uptimeYear": "93.57%",
     "time": 95,
@@ -177,7 +179,7 @@
     "status": "up",
     "uptime": "93.57%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "56.14%",
+    "uptimeWeek": "57.62%",
     "uptimeMonth": "80.11%",
     "uptimeYear": "93.57%",
     "time": 106,
