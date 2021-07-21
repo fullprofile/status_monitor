@@ -6,7 +6,7 @@ repo: status_monitor # Your Github repository name
 sites:
   - name: Waypath App
     url: https://app.waypath.io
-  - name: Metabase
+  - name: Waypath Insights App
     url: https://metabase.waypath.io/
   - name: OUS Service
     url: https://api.waypath.io/ous/health-monitor
