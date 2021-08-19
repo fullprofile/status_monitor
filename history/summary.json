@@ -4,19 +4,19 @@
     "url": "https://app.waypath.io",
     "icon": "https://favicons.githubusercontent.com/app.waypath.io",
     "slug": "waypath-app",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.49%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
     "uptimeYear": "100.00%",
-    "time": 398,
-    "timeDay": 127,
-    "timeWeek": 161,
-    "timeMonth": 157,
-    "timeYear": 398,
+    "time": 405,
+    "timeDay": 1159,
+    "timeWeek": 415,
+    "timeMonth": 220,
+    "timeYear": 405,
     "dailyMinutesDown": {
-      "2021-08-19": 0
+      "2021-08-19": 7
     }
   },
   {
