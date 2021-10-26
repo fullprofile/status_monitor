@@ -22,18 +22,20 @@
     "url": "https://metabase.waypath.io/",
     "icon": "https://favicons.githubusercontent.com/metabase.waypath.io",
     "slug": "waypath-insights-app",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 368,
-    "timeDay": 561,
-    "timeWeek": 344,
-    "timeMonth": 350,
-    "timeYear": 368,
-    "dailyMinutesDown": {}
+    "time": 367,
+    "timeDay": 457,
+    "timeWeek": 345,
+    "timeMonth": 351,
+    "timeYear": 367,
+    "dailyMinutesDown": {
+      "2021-10-26": 0
+    }
   },
   {
     "name": "OUS Service",
