@@ -68,6 +68,8 @@ sites:
       - "Agridigital-API-MonitorPrivateKey: $SECRET_SITE_1"
       - "Authorization: $SECRET_SITE_2"
       - "Content-Type: application/json"
+  - name: Metabase Service
+    url: https://metabase.waypath.io/api/health   
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
