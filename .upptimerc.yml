@@ -7,7 +7,7 @@ sites:
   - name: Waypath App
     url: https://app.waypath.io
   - name: Waypath Insights App
-    url: https://metabase.waypath.io/
+    url: https://insights-api.waypath.io/api/health
   - name: OUS Service
     url: https://api.waypath.io/ous/health-monitor
     headers:
