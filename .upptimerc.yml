@@ -76,7 +76,7 @@ status-website:
   # cname: status.waypath.io
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /status_monitor
-  logoUrl: https://assets.website-files.com/5f33c7d6c091c28614d610eb/5f33c7d6c091c29dd3d61320_AgriDigital_Logo_FULL_LOCKUP_BLUE_TEXT.png
+  logoUrl: https://agridigital-public-media.s3.us-east-2.amazonaws.com/media/Onfarm_Lockup_Horizontal_Colour.png
   cname: status.waypath.io # Custom CNAME
   name: AgriDigital Onfarm Status Monitor
   # introTitle: "AgriDigital Onfarm Status Monitor provides a quick look at our services and the uptime"
