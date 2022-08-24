@@ -4,9 +4,9 @@ repo: status_monitor # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Waypath App
+  - name: AgriDigital Onfarm App
     url: https://app.waypath.io
-  - name: Waypath Insights App
+  - name: AgriDigital Onfarm Insights App
     url: https://insights-api.waypath.io/api/health
   - name: OUS Service
     url: https://api.waypath.io/ous/health-monitor
@@ -78,12 +78,12 @@ status-website:
   # baseUrl: /status_monitor
   logoUrl: https://assets.website-files.com/5f33c7d6c091c28614d610eb/5f33c7d6c091c29dd3d61320_AgriDigital_Logo_FULL_LOCKUP_BLUE_TEXT.png
   cname: status.waypath.io # Custom CNAME
-  name: Waypath Status Monitor
-  # introTitle: "Waypath Status Monitor provides a quick look at our services and the uptime"
+  name: AgriDigital Onfarm Status Monitor
+  # introTitle: "AgriDigital Onfarm Status Monitor provides a quick look at our services and the uptime"
   navbar:
     - title: Status
       href: /
-    - title: Waypath App
+    - title: AgriDigital Onfarm App
       href: https://app.waypath.io
     - title: Knowledge Base
       href: https://knowledgebase.waypath.io/
