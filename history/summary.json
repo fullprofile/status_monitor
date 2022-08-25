@@ -1,32 +1,49 @@
 [
   {
-    "name": "Waypath App",
+    "name": "AgriDigital Onfarm App",
     "url": "https://app.waypath.io",
     "icon": "https://favicons.githubusercontent.com/app.waypath.io",
-    "slug": "waypath-app",
+    "slug": "agri-digital-onfarm-app",
     "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
+<<<<<<< HEAD
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+=======
     "time": 213,
     "timeDay": 299,
     "timeWeek": 123,
     "timeMonth": 135,
     "timeYear": 157,
+>>>>>>> master
     "dailyMinutesDown": {}
   },
   {
-    "name": "Waypath Insights App",
+    "name": "AgriDigital Onfarm Insights App",
     "url": "https://insights-api.waypath.io/api/health",
     "icon": "https://favicons.githubusercontent.com/insights-api.waypath.io",
-    "slug": "waypath-insights-app",
+    "slug": "agri-digital-onfarm-insights-app",
     "status": "up",
-    "uptime": "99.98%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
+<<<<<<< HEAD
+    "uptimeYear": "100.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {}
+=======
     "uptimeYear": "99.98%",
     "time": 381,
     "timeDay": 408,
@@ -37,6 +54,7 @@
       "2021-12-15": 34,
       "2021-11-22": 95
     }
+>>>>>>> master
   },
   {
     "name": "OUS Service",
