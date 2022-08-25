@@ -1,7 +1,13 @@
 url: https://insights-api.waypath.io/api/health
 status: up
 code: 200
+<<<<<<< HEAD:history/agri-digital-onfarm-insights-app.yml
 responseTime: 455
 lastUpdated: 2022-08-24T06:10:59.274Z
 startTime: Wed Aug 24 2022 05:04:05 GMT+0000 (Coordinated Universal Time)
+=======
+responseTime: 408
+lastUpdated: 2022-08-24T23:03:09.559Z
+startTime: Wed Jul 21 2021 04:29:53 GMT+0000 (Coordinated Universal Time)
+>>>>>>> master:history/waypath-insights-app.yml
 generator: Upptime <https://github.com/upptime/upptime>
