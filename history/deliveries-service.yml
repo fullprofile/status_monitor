@@ -1,7 +1,7 @@
 url: https://api.waypath.io/deliveries/v1/health-monitor
-status: down
-code: 404
-responseTime: 74
-lastUpdated: 2022-10-06T23:23:08.200Z
+status: up
+code: 200
+responseTime: 114
+lastUpdated: 2022-10-06T23:38:30.906Z
 startTime: Thu Aug 25 2022 04:39:57 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
