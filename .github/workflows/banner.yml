@@ -14,6 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Dump context
+        uses: crazy-max/ghaction-dump-context@v1
+
       - uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GH_PAT }}
