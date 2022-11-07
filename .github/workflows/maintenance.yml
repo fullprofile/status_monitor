@@ -18,25 +18,25 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            if (github.event.issue.labels.some(l => l.name.includes('ONFARM'))) {
+            if (context.payload.issue.labels.some(l => l.name.includes('ONFARM'))) {
               await github.rest.issues.create({
                 owner: 'fullprofile',
                 repo: 'web-app-shell',
-                // github.event.issue.id will be used to search when closing the issue
-                title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
-                body: `${{ github.event.issue.body }}`,
-                labels: `${{ github.event.issue.labels }}`,
+                // Issue's id will be used to search when closing the issue
+                title: `${context.payload.issue.title} - ${context.payload.issue.id }`,
+                body: context.payload.issue.body,
+                labels: context.payload.issue.labels.map(l => l.name),
               });
             };
 
-            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT'))) {
+            if (context.payload.issue.labels.some(l => l.name.includes('INSIGHT'))) {
               await github.rest.issues.create({
                 owner: 'fullprofile',
                 repo: 'wp-report-app',
-                // github.event.issue.id will be used to search when closing the issue
-                title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
-                body: `${{ github.event.issue.body }}`,
-                labels: `${{ github.event.issue.labels.*.name }}`,
+                // Issue's id will be used to search when closing the issue
+                title: `${context.payload.issue.title} - ${context.payload.issue.id }`,
+                body: context.payload.issue.body,
+                labels: context.payload.issue.labels.map(l => l.name),
               });
             };
   close_issue:
@@ -51,7 +51,7 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            if (github.event.issue.labels.some((l) => l.name.includes("ONFARM"))) {
+            if (context.payload.issue.labels.some((l) => l.name.includes("ONFARM"))) {
               // Fetch all issues on Onfarm repo with filter
               const issues = await github.rest.issues.listForRepo({
                 owner: "fullprofile",
@@ -62,7 +62,7 @@ jobs:
 
               // Extract the related issue created by issue from status_monitor
               const linkedIssue = issues.data.find((i) =>
-                i.title.includes(`${{ github.event.issue.id }}`)
+                i.title.includes(context.payload.issue.id)
               );
 
               // Update Onfarm issue to close
@@ -74,7 +74,7 @@ jobs:
               });
             }
 
-            if (github.event.issue.labels.some((l) => l.name.includes("INSIGHT"))) {
+            if (context.payload.issue.labels.some((l) => l.name.includes("INSIGHT"))) {
               // Fetch all issues on Insight repo with filter
               const issues = await github.rest.issues.listForRepo({
                 owner: "fullprofile",
@@ -85,7 +85,7 @@ jobs:
 
               // Extract the related issue created by issue from status_monitor
               const linkedIssue = issues.data.find((i) =>
-                i.title.includes(`${{ github.event.issue.id }}`)
+                i.title.includes(context.payload.issue.id)
               );
 
               // Update Insight issue to close
