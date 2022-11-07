@@ -42,7 +42,7 @@ jobs:
   close_issue:
     name: Close issue on Onfarm and/or Insight repo
     runs-on: ubuntu-18.04
-    if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'BANNER') }}
+    if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'BANNER') }}
 
     steps:
       - uses: actions/checkout@v2
