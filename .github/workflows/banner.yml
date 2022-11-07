@@ -14,37 +14,34 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Dump context
-        uses: crazy-max/ghaction-dump-context@v1
-
       - name: View context attributes
         uses: actions/github-script@v6
         with:
-          script: console.log(context)
+          script: console.log(JSON.stringify(context, null, 2))
 
       - uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            if (context.issue.labels.some(l => l.name.includes('ONFARM'))) {
+            if (context.payload.issue.labels.some(l => l.name.includes('ONFARM'))) {
               await github.rest.issues.create({
                 owner: 'fullprofile',
                 repo: 'web-app-shell',
                 // Issue's id will be used to search when closing the issue
-                title: `${context.issue.title} - ${ context.issue.id }`,
-                body: context.issue.body,
-                labels: context.issue.labels.map(l => l.name),
+                title: `${context.payload.issue.title} - ${ context.payload.issue.id }`,
+                body: context.payload.issue.body,
+                labels: context.payload.issue.labels.map(l => l.name),
               });
             };
 
-            if (context.issue.labels.some(l => l.name.includes('INSIGHT'))) {
+            if (context.payload.issue.labels.some(l => l.name.includes('INSIGHT'))) {
               await github.rest.issues.create({
                 owner: 'fullprofile',
                 repo: 'wp-report-app',
                 // Issue's id will be used to search when closing the issue
-                title: `${context.issue.title} - ${ context.issue.id }`,
-                body: context.issue.body,
-                labels: context.issue.labels.map(l => l.name),
+                title: `${context.payload.issue.title} - ${ context.payload.issue.id }`,
+                body: context.payload.issue.body,
+                labels: context.payload.issue.labels.map(l => l.name),
               });
             };
   close_issue:
@@ -59,7 +56,7 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            if (context.issue.labels.some((l) => l.name.includes("ONFARM"))) {
+            if (context.payload.issue.labels.some((l) => l.name.includes("ONFARM"))) {
               // Fetch all issues on Onfarm repo with filter
               const issues = await github.rest.issues.listForRepo({
                 owner: "fullprofile",
@@ -70,7 +67,7 @@ jobs:
 
               // Extract the related issue created by issue from status_monitor
               const linkedIssue = issues.data.find((i) =>
-                i.title.includes(context.issue.id)
+                i.title.includes(context.payload.issue.id)
               );
 
               // Update Onfarm issue to close
@@ -82,7 +79,7 @@ jobs:
               });
             }
 
-            if (context.issue.labels.some((l) => l.name.includes("INSIGHT"))) {
+            if (context.payload.issue.labels.some((l) => l.name.includes("INSIGHT"))) {
               // Fetch all issues on Insight repo with filter
               const issues = await github.rest.issues.listForRepo({
                 owner: "fullprofile",
@@ -93,7 +90,7 @@ jobs:
 
               // Extract the related issue created by issue from status_monitor
               const linkedIssue = issues.data.find((i) =>
-                i.title.includes(context.issue.id)
+                i.title.includes(context.payload.issue.id)
               );
 
               // Update Insight issue to close
