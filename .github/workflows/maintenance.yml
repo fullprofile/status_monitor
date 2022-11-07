@@ -10,7 +10,7 @@ on:
 jobs:
   open_issue:
     name: Build
-    runs-on: [self-hosted, Linux, X64, runner1, dev]
+    runs-on: ubuntu-18.04
     if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'MAINTENANCE') }}
 
     steps:
@@ -64,7 +64,7 @@ jobs:
           aws s3 cp issue-info.md ${{ env.BUCKET_URL }} --metadata startdate="$(date '+%a %b %d %Y %T GMT%z')",enddate="$(date -d '+1 month' '+%a %b %d %Y %T GMT%z')"
   close_issue:
     name: Build
-    runs-on: [self-hosted, Linux, X64, runner1, dev]
+    runs-on: ubuntu-18.04
     if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'MAINTENANCE') }}
 
     steps:
