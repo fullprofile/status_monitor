@@ -40,7 +40,7 @@ jobs:
           echo "ROLE_TO_ASSUME=${{ secrets.PROD_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
           echo "BUCKET_URL=s3://prod-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
 
-       name: Set PRODUCTION Specific AWS Keys for Insight
+      - name: Set PRODUCTION Specific AWS Keys for Insight
         if: contains(github.event.issue.labels.*.name, 'PRODUCTION') && contains(github.event.issue.labels.*.name, 'INSIGHT')
         run: |
           echo "AWS_ACCESS_KEY_ID=${{ secrets.PROD_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
@@ -94,7 +94,7 @@ jobs:
           echo "ROLE_TO_ASSUME=${{ secrets.PROD_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
           echo "BUCKET_URL=s3://prod-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
 
-       name: Set PRODUCTION Specific AWS Keys for Insight
+      - name: Set PRODUCTION Specific AWS Keys for Insight
         if: contains(github.event.issue.labels.*.name, 'PRODUCTION') && contains(github.event.issue.labels.*.name, 'INSIGHT')
         run: |
           echo "AWS_ACCESS_KEY_ID=${{ secrets.PROD_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
