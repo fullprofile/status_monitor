@@ -18,7 +18,7 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            if (github.event.issue.labels.some(l => l.name.includes('ONFARM')) {
+            if (github.event.issue.labels.some(l => l.name.includes('ONFARM'))) {
               await github.rest.issues.create({
                 owner: 'fullprofile',
                 repo: 'web-app-shell',
@@ -29,7 +29,7 @@ jobs:
               });
             };
 
-            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT')) {
+            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT'))) {
               await github.rest.issues.create({
                 owner: 'fullprofile',
                 repo: 'wp-report-app',
@@ -51,7 +51,7 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            if (github.event.issue.labels.some(l => l.name.includes('ONFARM')) {
+            if (github.event.issue.labels.some(l => l.name.includes('ONFARM'))) {
               // Fetch all issues on Onfarm repo with filter
               const issues = await github.rest.issues.listForRepo({
                 owner: 'fullprofile',
@@ -72,7 +72,7 @@ jobs:
               });
             };
 
-            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT')) {
+            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT'))) {
               // Fetch all issues on Insight repo with filter
               const issues = await github.rest.issues.listForRepo({
                 owner: 'fullprofile',
