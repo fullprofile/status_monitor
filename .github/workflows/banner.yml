@@ -25,7 +25,7 @@ jobs:
                 // github.event.issue.id will be used to search when closing the issue
                 title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
                 body: `${{ github.event.issue.body }}`,
-                labels: `${{ github.event.issue.labels }}`,
+                labels: `${{ github.event.issue.labels.*.name }}`,
               });
             };
 
@@ -36,7 +36,7 @@ jobs:
                 // github.event.issue.id will be used to search when closing the issue
                 title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
                 body: `${{ github.event.issue.body }}`,
-                labels: `${{ github.event.issue.labels }}`,
+                labels: `${{ github.event.issue.labels.*.name }}`,
               });
             };
   close_issue:
@@ -51,44 +51,48 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            if (github.event.issue.labels.some(l => l.name.includes('ONFARM'))) {
+            if (github.event.issue.labels.some((l) => l.name.includes("ONFARM"))) {
               // Fetch all issues on Onfarm repo with filter
               const issues = await github.rest.issues.listForRepo({
-                owner: 'fullprofile',
-                repo: 'web-app-shell',
-                labels: ['BANNER'], // Filter issues with banner label
-                state: 'open', // Filter open issues
+                owner: "fullprofile",
+                repo: "web-app-shell",
+                labels: ["BANNER"], // Filter issues with banner label
+                state: "open", // Filter open issues
               });
 
               // Extract the related issue created by issue from status_monitor
-              const linkedIssue = issues.data.find(i => i.title.includes('${{ github.event.issue.id }}'));
+              const linkedIssue = issues.data.find((i) =>
+                i.title.includes(`${{ github.event.issue.id }}`)
+              );
 
               // Update Onfarm issue to close
               await github.rest.issues.update({
-                owner: 'fullprofile',
-                repo: 'web-app-shell',
+                owner: "fullprofile",
+                repo: "web-app-shell",
                 issue_number: linkedIssue.number,
-                state: 'closed'
+                state: "closed",
               });
-            };
+            }
 
-            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT'))) {
+            if (github.event.issue.labels.some((l) => l.name.includes("INSIGHT"))) {
               // Fetch all issues on Insight repo with filter
               const issues = await github.rest.issues.listForRepo({
-                owner: 'fullprofile',
-                repo: 'wp-report-app',
-                labels: ['BANNER'], // Filter issues with banner label
-                state: 'open', // Filter open issues
+                owner: "fullprofile",
+                repo: "wp-report-app",
+                labels: ["BANNER"], // Filter issues with banner label
+                state: "open", // Filter open issues
               });
 
               // Extract the related issue created by issue from status_monitor
-              const linkedIssue = issues.data.find(i => i.title.includes('${{ github.event.issue.id }}'));
+              const linkedIssue = issues.data.find((i) =>
+                i.title.includes(`${{ github.event.issue.id }}`)
+              );
 
               // Update Insight issue to close
               await github.rest.issues.update({
-                owner: 'fullprofile',
-                repo: 'wp-report-app',
+                owner: "fullprofile",
+                repo: "wp-report-app",
                 issue_number: linkedIssue.number,
-                state: 'closed'
+                state: "closed",
               });
-            };
+            }

@@ -36,7 +36,7 @@ jobs:
                 // github.event.issue.id will be used to search when closing the issue
                 title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
                 body: `${{ github.event.issue.body }}`,
-                labels: `${{ github.event.issue.labels }}`,
+                labels: `${{ github.event.issue.labels.*.name }}`,
               });
             };
   close_issue:
@@ -62,7 +62,7 @@ jobs:
 
               // Extract the related issue created by issue from status_monitor
               const linkedIssue = issues.data.find((i) =>
-                i.title.includes("${{ github.event.issue.id }}")
+                i.title.includes(`${{ github.event.issue.id }}`)
               );
 
               // Update Onfarm issue to close
@@ -85,7 +85,7 @@ jobs:
 
               // Extract the related issue created by issue from status_monitor
               const linkedIssue = issues.data.find((i) =>
-                i.title.includes("${{ github.event.issue.id }}")
+                i.title.includes(`${{ github.event.issue.id }}`)
               );
 
               // Update Insight issue to close
