@@ -9,7 +9,9 @@ jobs:
   create_issue:
     name: Create issue on Onfarm and/or Insight repo
     runs-on: ubuntu-18.04
-    if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'MAINTENANCE') }}
+    # MAINTENANCE is special for status monitor as it puts the page to unaccessable state,
+    # Usage of MAINTENANCE-APP will distinguish status monitor maintenance from onfarm or insight maintenance
+    if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'MAINTENANCE-APP') }}
 
     steps:
       - uses: actions/checkout@v2
@@ -25,7 +27,7 @@ jobs:
                 // Issue's id will be used to search when closing the issue
                 title: `${context.payload.issue.title} - ${context.payload.issue.id }`,
                 body: context.payload.issue.body,
-                labels: context.payload.issue.labels.map(l => l.name),
+                labels: context.payload.issue.labels.map(l => l.name).concat('MAINTENANCE'),
               });
             };
 
@@ -36,13 +38,15 @@ jobs:
                 // Issue's id will be used to search when closing the issue
                 title: `${context.payload.issue.title} - ${context.payload.issue.id }`,
                 body: context.payload.issue.body,
-                labels: context.payload.issue.labels.map(l => l.name),
+                labels: context.payload.issue.labels.map(l => l.name).concat('MAINTENANCE'),
               });
             };
   close_issue:
     name: Close issue on Onfarm and/or Insight repo
     runs-on: ubuntu-18.04
-    if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'MAINTENANCE') }}
+    # MAINTENANCE is special for status monitor as it puts the page to unaccessable state,
+    # Usage of MAINTENANCE-APP will distinguish status monitor maintenance from onfarm or insight maintenance
+    if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'MAINTENANCE-APP') }}
 
     steps:
       - uses: actions/checkout@v2
