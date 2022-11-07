@@ -48,6 +48,9 @@ jobs:
           echo "ROLE_TO_ASSUME=${{ secrets.PROD_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
           echo "BUCKET_URL=s3://prod-maintenance-content/insight-banner.md" >> "$GITHUB_ENV"
 
+      - name: Dump context
+        uses: crazy-max/ghaction-dump-context@v1
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
