@@ -1,118 +1,94 @@
-# Upload command that works on OSX
-# aws s3 cp issue-info.md s3://maintenance-content/onfarm-maintenance.md --metadata startdate="$(date '+%a %b %d %Y %T GMT%z')",enddate="$(date -v +1m '+%a %b %d %Y %T GMT%z')"
-
 name: Onfarm and Insight Maintenance with Redirect
 
 on:
   issues:
     types: [opened, closed]
+  workflow_dispatch:
 
 jobs:
-  open_issue:
-    name: Build
+  create_issue:
+    name: Create issue on Onfarm and/or Insight repo
     runs-on: ubuntu-18.04
     if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'MAINTENANCE') }}
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set DEV Specific AWS Keys for Onfarm
-        if: contains(github.event.issue.labels.*.name, 'DEV') && contains(github.event.issue.labels.*.name, 'ONFARM')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.DEV_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.DEV_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.DEV_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://dev-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Set SANDBOX Specific AWS Keys for Onfarm
-        if: contains(github.event.issue.labels.*.name, 'SANDBOX') && contains(github.event.issue.labels.*.name, 'ONFARM')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.STAGING_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://sandbox-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Set PRODUCTION Specific AWS Keys for Onfarm
-        if: contains(github.event.issue.labels.*.name, 'PRODUCTION') && contains(github.event.issue.labels.*.name, 'ONFARM')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.PROD_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.PROD_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://prod-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Set PRODUCTION Specific AWS Keys for Insight
-        if: contains(github.event.issue.labels.*.name, 'PRODUCTION') && contains(github.event.issue.labels.*.name, 'INSIGHT')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.PROD_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.PROD_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://prod-maintenance-content/insight-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+      - uses: actions/github-script@v6
         with:
-          aws-access-key-id: "${{ env.AWS_ACCESS_KEY_ID }}"
-          aws-secret-access-key: "${{ env.AWS_SECRET_ACCESS_KEY }}"
-          aws-region: us-west-2
-          role-to-assume: "${{ env.ROLE_TO_ASSUME }}"
-          role-external-id: "${{ secrets.AWS_ROLE_EXTERNAL_ID }}"
-          role-duration-seconds: 1200
+          github-token: ${{ secrets.GH_PAT }}
+          script: |
+            if (github.event.issue.labels.some(l => l.name.includes('ONFARM')) {
+              await github.rest.issues.create({
+                owner: 'fullprofile',
+                repo: 'web-app-shell',
+                // github.event.issue.id will be used to search when closing the issue
+                title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
+                body: `${{ github.event.issue.body }}`,
+                labels: `${{ github.event.issue.labels }}`,
+              });
+            };
 
-      - name: Upload to S3
-        run: |
-          echo "" >> issue-info.md
-          aws s3 cp issue-info.md ${{ env.BUCKET_URL }} --metadata startdate="$(date '+%a %b %d %Y %T GMT%z')",enddate="$(date -d '+1 month' '+%a %b %d %Y %T GMT%z')"
+            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT')) {
+              await github.rest.issues.create({
+                owner: 'fullprofile',
+                repo: 'wp-report-app',
+                // github.event.issue.id will be used to search when closing the issue
+                title: `${{ github.event.issue.title }} - ${{ github.event.issue.id }}`,
+                body: `${{ github.event.issue.body }}`,
+                labels: `${{ github.event.issue.labels }}`,
+              });
+            };
   close_issue:
-    name: Build
+    name: Close issue on Onfarm and/or Insight repo
     runs-on: ubuntu-18.04
-    if: ${{ github.event.action == 'closed' && contains(github.event.issue.labels.*.name, 'MAINTENANCE') }}
+    if: ${{ github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'MAINTENANCE') }}
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Set DEV Specific AWS Keys for Onfarm
-        if: contains(github.event.issue.labels.*.name, 'DEV') && contains(github.event.issue.labels.*.name, 'ONFARM')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.DEV_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.DEV_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.DEV_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://dev-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Set SANDBOX Specific AWS Keys for Onfarm
-        if: contains(github.event.issue.labels.*.name, 'SANDBOX') && contains(github.event.issue.labels.*.name, 'ONFARM')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.STAGING_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://sandbox-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Set PRODUCTION Specific AWS Keys for Onfarm
-        if: contains(github.event.issue.labels.*.name, 'PRODUCTION') && contains(github.event.issue.labels.*.name, 'ONFARM')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.PROD_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.PROD_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://prod-maintenance-content/onfarm-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Set PRODUCTION Specific AWS Keys for Insight
-        if: contains(github.event.issue.labels.*.name, 'PRODUCTION') && contains(github.event.issue.labels.*.name, 'INSIGHT')
-        run: |
-          echo "AWS_ACCESS_KEY_ID=${{ secrets.PROD_AWS_ACCESS_KEY_ID }}" >> "$GITHUB_ENV"
-          echo "AWS_SECRET_ACCESS_KEY=${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}" >> "$GITHUB_ENV"
-          echo "ROLE_TO_ASSUME=${{ secrets.PROD_AWS_ROLE_TO_ASSUME }}" >> "$GITHUB_ENV"
-          echo "BUCKET_URL=s3://prod-maintenance-content/insight-maintenance.md" >> "$GITHUB_ENV"
-
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+      - uses: actions/github-script@v6
         with:
-          aws-access-key-id: "${{ env.AWS_ACCESS_KEY_ID }}"
-          aws-secret-access-key: "${{ env.AWS_SECRET_ACCESS_KEY }}"
-          aws-region: us-west-2
-          role-to-assume: "${{ env.ROLE_TO_ASSUME }}"
-          role-external-id: "${{ secrets.AWS_ROLE_EXTERNAL_ID }}"
-          role-duration-seconds: 1200
+          github-token: ${{ secrets.GH_PAT }}
+          script: |
+            if (github.event.issue.labels.some(l => l.name.includes('ONFARM')) {
+              // Fetch all issues on Onfarm repo with filter
+              const issues = await github.rest.issues.listForRepo({
+                owner: 'fullprofile',
+                repo: 'web-app-shell',
+                labels: ['MAINTENANCE'], // Filter issues with banner label
+                state: 'open', // Filter open issues
+              });
 
-      - name: Upload to S3
-        run: |
-          echo "" >> issue-info.md
-          aws s3 cp issue-info.md ${{ env.BUCKET_URL }} --metadata startdate="$(date '+%a %b %d %Y %T GMT%z')",enddate="$(date '+%a %b %d %Y %T GMT%z')"
+              // Extract the related issue created by issue from status_monitor
+              const linkedIssue = issues.data.find(i => i.title.includes('${{ github.event.issue.id }}'));
+
+              // Update Onfarm issue to close
+              await github.rest.issues.update({
+                owner: 'fullprofile',
+                repo: 'web-app-shell',
+                issue_number: linkedIssue.number,
+                state: 'closed'
+              });
+            };
+
+            if (github.event.issue.labels.some(l => l.name.includes('INSIGHT')) {
+              // Fetch all issues on Insight repo with filter
+              const issues = await github.rest.issues.listForRepo({
+                owner: 'fullprofile',
+                repo: 'wp-report-app',
+                labels: ['MAINTENANCE'], // Filter issues with banner label
+                state: 'open', // Filter open issues
+              });
+
+              // Extract the related issue created by issue from status_monitor
+              const linkedIssue = issues.data.find(i => i.title.includes('${{ github.event.issue.id }}'));
+
+              // Update Insight issue to close
+              await github.rest.issues.update({
+                owner: 'fullprofile',
+                repo: 'wp-report-app',
+                issue_number: linkedIssue.number,
+                state: 'closed'
+              });
+            };
