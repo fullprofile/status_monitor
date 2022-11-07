@@ -17,6 +17,11 @@ jobs:
       - name: Dump context
         uses: crazy-max/ghaction-dump-context@v1
 
+      - name: View context attributes
+        uses: actions/github-script@v6
+        with:
+          script: console.log(context)
+
       - uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GH_PAT }}
