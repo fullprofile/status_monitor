@@ -153,7 +153,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.waypath.io.ico",
     "slug": "deliveries-service",
     "status": "up",
-    "uptime": "96.39%",
+    "uptime": "96.40%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -176,7 +176,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.waypath.io.ico",
     "slug": "org-inventory-service",
     "status": "up",
-    "uptime": "96.43%",
+    "uptime": "96.44%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -264,17 +264,19 @@
     "url": "https://metabase.waypath.io/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/metabase.waypath.io.ico",
     "slug": "metabase-service",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 295,
-    "timeDay": 255,
-    "timeWeek": 328,
-    "timeMonth": 297,
-    "timeYear": 295,
-    "dailyMinutesDown": {}
+    "time": 294,
+    "timeDay": 181,
+    "timeWeek": 300,
+    "timeMonth": 291,
+    "timeYear": 294,
+    "dailyMinutesDown": {
+      "2023-02-13": 1
+    }
   }
 ]
