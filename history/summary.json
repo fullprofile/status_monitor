@@ -32,7 +32,7 @@
     "timeDay": 402,
     "timeWeek": 360,
     "timeMonth": 415,
-    "timeYear": 357,
+    "timeYear": 358,
     "dailyMinutesDown": {}
   },
   {
@@ -50,7 +50,7 @@
     "timeDay": 294,
     "timeWeek": 301,
     "timeMonth": 371,
-    "timeYear": 334,
+    "timeYear": 335,
     "dailyMinutesDown": {}
   },
   {
@@ -94,18 +94,19 @@
     "url": "https://api.waypath.io/csv/health-monitor",
     "icon": "https://icons.duckduckgo.com/ip3/api.waypath.io.ico",
     "slug": "csv-export-service",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 77,
-    "timeDay": 84,
-    "timeWeek": 97,
-    "timeMonth": 98,
+    "timeDay": 69,
+    "timeWeek": 92,
+    "timeMonth": 96,
     "timeYear": 80,
     "dailyMinutesDown": {
+      "2023-08-25": 0,
       "2022-11-16": 23
     }
   },
@@ -124,7 +125,7 @@
     "timeDay": 64,
     "timeWeek": 59,
     "timeMonth": 73,
-    "timeYear": 65,
+    "timeYear": 66,
     "dailyMinutesDown": {}
   },
   {
@@ -247,7 +248,7 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 76,
+    "time": 74,
     "timeDay": 68,
     "timeWeek": 67,
     "timeMonth": 80,
@@ -274,7 +275,7 @@
     "timeDay": 275,
     "timeWeek": 300,
     "timeMonth": 349,
-    "timeYear": 303,
+    "timeYear": 301,
     "dailyMinutesDown": {}
   }
 ]
