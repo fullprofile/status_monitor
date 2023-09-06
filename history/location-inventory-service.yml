@@ -1,7 +1,7 @@
 url: https://api.waypath.io/locationinventories/health-monitor
 status: up
 code: 200
-responseTime: 51
-lastUpdated: 2023-09-05T23:02:54.743Z
+responseTime: 69
+lastUpdated: 2023-09-06T23:03:00.730Z
 startTime: 2022-08-25T04:39:58.000Z
 generator: Upptime <https://github.com/upptime/upptime>
