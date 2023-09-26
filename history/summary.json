@@ -40,19 +40,19 @@
     "url": "https://api.waypath.io/ous/health-monitor",
     "icon": "https://icons.duckduckgo.com/ip3/api.waypath.io.ico",
     "slug": "ous-service",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "98.81%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.96%",
     "uptimeYear": "100.00%",
     "time": 376,
-    "timeDay": 11821,
-    "timeWeek": 3258,
-    "timeMonth": 1036,
-    "timeYear": 396,
+    "timeDay": 7959,
+    "timeWeek": 2922,
+    "timeMonth": 1012,
+    "timeYear": 395,
     "dailyMinutesDown": {
-      "2023-09-26": 0
+      "2023-09-26": 17
     }
   },
   {
