@@ -10,10 +10,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 167,
-    "timeDay": 252,
-    "timeWeek": 190,
-    "timeMonth": 170,
+    "time": 166,
+    "timeDay": 66,
+    "timeWeek": 161,
+    "timeMonth": 167,
     "timeYear": 171,
     "dailyMinutesDown": {}
   },
@@ -28,10 +28,10 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 358,
-    "timeDay": 490,
-    "timeWeek": 347,
-    "timeMonth": 374,
+    "time": 357,
+    "timeDay": 114,
+    "timeWeek": 281,
+    "timeMonth": 370,
     "timeYear": 362,
     "dailyMinutesDown": {}
   },
@@ -47,8 +47,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 376,
-    "timeDay": 198,
-    "timeWeek": 279,
+    "timeDay": 278,
+    "timeWeek": 245,
     "timeMonth": 329,
     "timeYear": 396,
     "dailyMinutesDown": {
@@ -67,10 +67,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 62,
-    "timeDay": 36,
-    "timeWeek": 46,
-    "timeMonth": 60,
-    "timeYear": 62,
+    "timeDay": 26,
+    "timeWeek": 40,
+    "timeMonth": 59,
+    "timeYear": 61,
     "dailyMinutesDown": {}
   },
   {
@@ -85,9 +85,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 65,
-    "timeDay": 37,
-    "timeWeek": 49,
-    "timeMonth": 62,
+    "timeDay": 27,
+    "timeWeek": 42,
+    "timeMonth": 61,
     "timeYear": 64,
     "dailyMinutesDown": {}
   },
@@ -103,13 +103,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 78,
-    "timeDay": 38,
-    "timeWeek": 59,
+    "timeDay": 54,
+    "timeWeek": 55,
     "timeMonth": 71,
     "timeYear": 77,
-    "dailyMinutesDown": {
-      "2022-11-16": 23
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Terminologies Service",
@@ -123,8 +121,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 64,
-    "timeDay": 37,
-    "timeWeek": 52,
+    "timeDay": 24,
+    "timeWeek": 45,
     "timeMonth": 63,
     "timeYear": 64,
     "dailyMinutesDown": {}
@@ -141,13 +139,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 73,
-    "timeDay": 37,
-    "timeWeek": 58,
+    "timeDay": 48,
+    "timeWeek": 54,
     "timeMonth": 70,
     "timeYear": 73,
-    "dailyMinutesDown": {
-      "2022-11-16": 23
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Deliveries Service",
@@ -155,19 +151,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.waypath.io.ico",
     "slug": "deliveries-service",
     "status": "up",
-    "uptime": "98.61%",
+    "uptime": "98.62%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 76,
-    "timeDay": 41,
-    "timeWeek": 56,
-    "timeMonth": 73,
+    "timeDay": 30,
+    "timeWeek": 50,
+    "timeMonth": 72,
     "timeYear": 73,
-    "dailyMinutesDown": {
-      "2022-11-16": 23
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Org Inventory Service",
@@ -181,13 +175,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 77,
-    "timeDay": 39,
-    "timeWeek": 55,
-    "timeMonth": 69,
+    "timeDay": 29,
+    "timeWeek": 49,
+    "timeMonth": 68,
     "timeYear": 73,
-    "dailyMinutesDown": {
-      "2022-11-16": 23
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Location Inventory Service",
@@ -201,13 +193,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 85,
-    "timeDay": 38,
-    "timeWeek": 53,
+    "timeDay": 35,
+    "timeWeek": 47,
     "timeMonth": 69,
     "timeYear": 84,
-    "dailyMinutesDown": {
-      "2022-11-16": 23
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "IOT Service",
@@ -221,13 +211,11 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 86,
-    "timeDay": 40,
-    "timeWeek": 55,
+    "timeDay": 44,
+    "timeWeek": 50,
     "timeMonth": 70,
     "timeYear": 86,
-    "dailyMinutesDown": {
-      "2022-11-16": 23
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Orders Service",
@@ -240,14 +228,12 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 75,
-    "timeDay": 39,
-    "timeWeek": 53,
+    "time": 74,
+    "timeDay": 51,
+    "timeWeek": 50,
     "timeMonth": 69,
     "timeYear": 72,
-    "dailyMinutesDown": {
-      "2022-11-16": 23
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Metabase Service",
@@ -261,10 +247,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 300,
-    "timeDay": 187,
-    "timeWeek": 244,
+    "timeDay": 168,
+    "timeWeek": 223,
     "timeMonth": 309,
-    "timeYear": 298,
+    "timeYear": 297,
     "dailyMinutesDown": {}
   }
 ]
