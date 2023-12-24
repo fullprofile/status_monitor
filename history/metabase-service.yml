@@ -1,7 +1,7 @@
 url: https://metabase.waypath.io/api/health
 status: up
 code: 200
-responseTime: 352
-lastUpdated: 2023-12-23T23:02:50.613Z
+responseTime: 105
+lastUpdated: 2023-12-24T23:02:50.527Z
 startTime: 2022-08-25T04:40:01.000Z
 generator: Upptime <https://github.com/upptime/upptime>
