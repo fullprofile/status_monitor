@@ -240,19 +240,19 @@
     "url": "https://metabase.waypath.io/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/metabase.waypath.io.ico",
     "slug": "metabase-service",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.02%",
+    "uptimeWeek": "99.86%",
+    "uptimeMonth": "99.97%",
     "uptimeYear": "100.00%",
-    "time": 351,
-    "timeDay": 12050,
-    "timeWeek": 3310,
-    "timeMonth": 1100,
+    "time": 352,
+    "timeDay": 8198,
+    "timeWeek": 2997,
+    "timeMonth": 1081,
     "timeYear": 374,
     "dailyMinutesDown": {
-      "2024-03-07": 0
+      "2024-03-07": 14
     }
   }
 ]
