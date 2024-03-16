@@ -1,7 +1,7 @@
 url: https://api.waypath.io/orders/health-monitor
 status: up
 code: 200
-responseTime: 103
-lastUpdated: 2024-03-15T23:03:04.759Z
+responseTime: 83
+lastUpdated: 2024-03-16T23:03:34.851Z
 startTime: 2022-08-25T04:40:00.000Z
 generator: Upptime <https://github.com/upptime/upptime>
